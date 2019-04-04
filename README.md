@@ -19,6 +19,11 @@ A simple test application to see if the board is running as expected
 A websocket server which gives all keypressed events to a websocket client. With this you are able to connect your keypad to a web interface.
 based on https://github.com/dpallot/simple-websocket-server
 
+```
+pip3 install SimpleWebSocketServer
+```
+
+
 KeyEventData:
 ```
 [{
@@ -26,6 +31,15 @@ KeyEventData:
     "event":"keydown" | "keyup",
     "number":0
 }]
+```
+KeyLedConfig:
+```
+{
+    boardnumber:0
+    number:0,
+    onKeyPressed:[255,255,255],
+    constant:[0,0,0]
+}
 ```
 
 ## License
