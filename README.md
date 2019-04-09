@@ -35,7 +35,7 @@ KeyEventData:
 KeyLedConfig:
 ```
 {
-    boardnumber:0
+    boardnumber:0,
     number:0,
     onKeyPressed:[255,255,255],
     constant:[0,0,0]

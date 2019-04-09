@@ -83,7 +83,7 @@ def keyEvent(event):
     trellis.pixels[event.number] = colors[event.number].onKeyPressed
   #turn the LED off when a rising edge is detected
   elif event.edge == NeoTrellis.EDGE_FALLING:
-    trellis.pixels[event.number] = OFF
+    trellis.pixels[event.number] = colors[event.number].constant
   broadCast(KeyEventCls(event.edge,event.number,0))
 
 
