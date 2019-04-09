@@ -42,6 +42,9 @@ KeyLedConfig:
 }
 ```
 
+index.html is an example how to use and set the keypad.
+I cleaned the [farbtastic.js](https://github.com/mattfarina/farbtastic) lib from old compatibility code for IE so that it works with actual jquery.
+
 ## License
 
 MIT
