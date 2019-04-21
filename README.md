@@ -4,6 +4,7 @@ Manual:
 https://cdn-learn.adafruit.com/downloads/pdf/adafruit-neotrellis.pdf
 
 All my examples are tested with a Pi Zero W with Raspbian Stretch(9.4). SDA and SCL on I2C1 (PIN3 + PIN5) and INT on GPIO4(PIN7).
+Running with python 3.
 
 ## Prerequisites
 
